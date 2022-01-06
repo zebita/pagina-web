@@ -1,0 +1,43 @@
+h3{
+    color: #251512;
+    opacity: 1;
+    font-variant: small-caps;
+    font-style: inherit;
+}
+*{
+    border:solid;
+    border-color:lightsteelblue;
+}
+a:link{
+	color: white;
+	padding: 5px;
+	margin: 5px;
+}
+
+a:visited{
+	color: black;
+}
+.header{
+    background-color:cornflowerblue;
+    display : flex;
+    justify-content: space-around;
+}
+.grid1{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content:space-around ;
+}
+.grid2{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content:space-around ;
+}
+.footer{
+    background-color:cornflowerblue;
+    display: flex;
+    justify-content: end;
+}
+
+.item:hover h3{
+    opacity: 0.150;
+}
